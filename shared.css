@@ -199,7 +199,7 @@
     height: 48px;
     padding: 0;
     place-items: center;
-    border: 1px solid rgba(255, 255, 255, 0.55);
+    border: 1px solid rgba(162, 162, 162, 0.55);
     background: rgba(15, 15, 15, 0.6);
     color: #fff;
     cursor: pointer;
@@ -210,18 +210,18 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 5px;
-    width: 24px;
+    width: 30px;
   }
 
   .vertical-menu__toggle-lines span {
     display: block;
-    width: 24px;
-    height: 2px;
-    background: currentColor;
+    width: 30px;
+    height: 4px;
+    background: #a2a2a2;
   }
 
-  .vertical-menu__toggle-lines span:nth-child(2) { width: 15px; }
-  .vertical-menu__toggle-lines span:nth-child(3) { width: 20px; }
+  .vertical-menu__toggle-lines span:nth-child(2) { width: 18px; }
+  .vertical-menu__toggle-lines span:nth-child(3) { width: 25px; }
 
   .vertical-menu__panel {
     position: fixed;

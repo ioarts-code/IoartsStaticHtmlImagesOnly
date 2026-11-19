@@ -348,10 +348,6 @@ button { cursor: pointer; background: none; border: none; font-family: inherit; 
   .gallery { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* ── Hide mobile menu controls for static menu ── */
-@media (max-width: 720px) {
-  .vertical-menu { display: none; }
-}
 @media (max-width: 720px) {
   body { min-width: 0; overflow-x: hidden; margin-left: 0; }
   .hero { --hero-image-left: 50%; height: min(760px, 100svh); min-height: 620px; }

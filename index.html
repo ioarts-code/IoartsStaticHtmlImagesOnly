@@ -53,11 +53,16 @@
 </head>
 <body>
   <nav class="vertical-menu">
-    <a href="index.html" class="vertical-menu__brand" title="IOARTS Home">Ioarts</a>
-    <div class="vertical-menu__links">
-      <a href="about-me.html" title="About Me">About Me</a>
-      <a href="https://buymeacoffee.com/ioartseu" target="_blank" rel="noopener noreferrer" title="Buy me coffee">Buy me coffee</a>
-      <a href="https://www.deviantart.com/ioartseu" target="_blank" rel="noopener noreferrer" title="DeviantArt">Deviantart</a>
+    <button class="vertical-menu__toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="vertical-menu-panel">
+      <span class="vertical-menu__toggle-lines" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+    <div class="vertical-menu__panel" id="vertical-menu-panel">
+      <a href="index.html" class="vertical-menu__brand" title="IOARTS Home">Ioarts</a>
+      <div class="vertical-menu__links">
+        <a href="about-me.html" title="About Me">About Me</a>
+        <a href="https://buymeacoffee.com/ioartseu" target="_blank" rel="noopener noreferrer" title="Buy me coffee">Buy me coffee</a>
+        <a href="https://www.deviantart.com/ioartseu" target="_blank" rel="noopener noreferrer" title="DeviantArt">Deviantart</a>
+      </div>
     </div>
   </nav>
 
@@ -147,3 +152,4 @@
     </div>
     <div class="ioarts-footer__copyright">&copy; 2027 IOARTS. All rights reserved.</div>
   </footer>
+  <script src="menu.js" defer></script>
