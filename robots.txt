@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ioarts.website/sitemap.xml
+Sitemap: https://ioarts.ink/sitemap.xml
