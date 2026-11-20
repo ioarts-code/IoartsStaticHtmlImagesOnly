@@ -12,13 +12,5 @@
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
       ]
     }
-  ],
-  "redirects": [
-    {
-      "source": "/:path(.*)",
-      "has": [{ "type": "host", "value": "www.ioarts.website" }],
-      "destination": "https://ioarts.website/:path",
-      "permanent": true
-    }
   ]
 }
